@@ -1,0 +1,12 @@
+{{- /* Inlines an SVG chart from assets so it can follow the site theme. */ -}}
+{{- $path := .Get 0 -}}
+{{- with resources.Get $path -}}
+<figure class="viz-figure">
+{{ .Content | safeHTML }}
+{{- with $.Get 1 }}
+<figcaption>{{ . }}</figcaption>
+{{- end }}
+</figure>
+{{- else -}}
+{{- errorf "svgchart: %q not found in assets" $path -}}
+{{- end -}}

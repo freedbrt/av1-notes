@@ -1,0 +1,103 @@
+<svg class="viz" viewBox="0 0 720 356" width="100%" role="img" font-family="system-ui, -apple-system, Segoe UI, sans-serif" aria-labelledby="wall-title wall-desc">
+<title id="wall-title">Wall time per key frame, 4 threads</title>
+<desc id="wall-desc">Grouped bars per clip for the Apple M3 Pro and the AMD Ryzen 9 5900X, libaom main against the flat hash table. Each clip's tooltip has the exact times.</desc>
+<text x="0" y="16" class="viz-ink" font-size="15" font-weight="600">Wall time per key frame, 4 threads</text>
+<rect x="0.0" y="32" width="12" height="12" rx="2" class="viz-main"/>
+<text x="18.0" y="42" class="viz-ink2" font-size="12">libaom main</text>
+<rect x="109.1" y="32" width="12" height="12" rx="2" class="viz-flat"/>
+<text x="127.1" y="42" class="viz-ink2" font-size="12">Flat hash table</text>
+<text x="0" y="112.0" class="viz-ink2" font-size="12">IDE, terminal</text>
+<text x="0" y="127.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="0" y="156.0" class="viz-ink2" font-size="12">IDE, chat, terminal</text>
+<text x="0" y="171.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="0" y="200.0" class="viz-ink2" font-size="12">Windows IDEs</text>
+<text x="0" y="215.0" class="viz-muted" font-size="11">2559x1372</text>
+<text x="0" y="244.0" class="viz-ink2" font-size="12">Browser, file manager</text>
+<text x="0" y="259.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="0" y="288.0" class="viz-ink2" font-size="12">IDE, video</text>
+<text x="0" y="303.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="150.0" y="78" class="viz-ink" font-size="13" font-weight="600">Apple M3 Pro</text>
+<line x1="150.0" y1="92" x2="150.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="150.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">0</text>
+<line x1="203.8" y1="92" x2="203.8" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="203.8" y="330" class="viz-muted" font-size="12" text-anchor="middle">50</text>
+<line x1="257.5" y1="92" x2="257.5" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="257.5" y="330" class="viz-muted" font-size="12" text-anchor="middle">100</text>
+<line x1="311.2" y1="92" x2="311.2" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="311.2" y="330" class="viz-muted" font-size="12" text-anchor="middle">150</text>
+<line x1="365.0" y1="92" x2="365.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="365.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">200</text>
+<text x="365.0" y="348" class="viz-muted" font-size="12" text-anchor="end">ms per key frame</text>
+<g tabindex="0"><title>IDE, terminal, Apple M3 Pro: libaom main 76.9 ms, Flat hash table 54.0 ms</title>
+<rect x="150.0" y="97.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,101.0h78.6a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-78.6z" class="viz-main"/>
+<path d="M150.0,115.0h54.0a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-54.0z" class="viz-flat"/>
+<text x="214.0" y="126.0" class="viz-ink2" font-size="12">-29.0%</text>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, Apple M3 Pro: libaom main 74.9 ms, Flat hash table 52.1 ms</title>
+<rect x="150.0" y="141.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,145.0h76.5a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-76.5z" class="viz-main"/>
+<path d="M150.0,159.0h52.0a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-52.0z" class="viz-flat"/>
+<text x="212.0" y="170.0" class="viz-ink2" font-size="12">-29.2%</text>
+</g>
+<g tabindex="0"><title>Windows IDEs, Apple M3 Pro: libaom main 74.3 ms, Flat hash table 54.8 ms</title>
+<rect x="150.0" y="185.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,189.0h75.9a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-75.9z" class="viz-main"/>
+<path d="M150.0,203.0h54.9a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-54.9z" class="viz-flat"/>
+<text x="214.9" y="214.0" class="viz-ink2" font-size="12">-25.1%</text>
+</g>
+<g tabindex="0"><title>Browser, file manager, Apple M3 Pro: libaom main 84.3 ms, Flat hash table 57.1 ms</title>
+<rect x="150.0" y="229.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,233.0h86.7a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-86.7z" class="viz-main"/>
+<path d="M150.0,247.0h57.4a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-57.4z" class="viz-flat"/>
+<text x="217.4" y="258.0" class="viz-ink2" font-size="12">-31.9%</text>
+</g>
+<g tabindex="0"><title>IDE, video, Apple M3 Pro: libaom main 96.4 ms, Flat hash table 65.7 ms</title>
+<rect x="150.0" y="273.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,277.0h99.6a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-99.6z" class="viz-main"/>
+<path d="M150.0,291.0h66.6a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-66.6z" class="viz-flat"/>
+<text x="226.6" y="302.0" class="viz-ink2" font-size="12">-31.9%</text>
+</g>
+<text x="449.0" y="78" class="viz-ink" font-size="13" font-weight="600">AMD Ryzen 9 5900X</text>
+<line x1="449.0" y1="92" x2="449.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="449.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">0</text>
+<line x1="502.8" y1="92" x2="502.8" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="502.8" y="330" class="viz-muted" font-size="12" text-anchor="middle">50</text>
+<line x1="556.5" y1="92" x2="556.5" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="556.5" y="330" class="viz-muted" font-size="12" text-anchor="middle">100</text>
+<line x1="610.2" y1="92" x2="610.2" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="610.2" y="330" class="viz-muted" font-size="12" text-anchor="middle">150</text>
+<line x1="664.0" y1="92" x2="664.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="664.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">200</text>
+<text x="664.0" y="348" class="viz-muted" font-size="12" text-anchor="end">ms per key frame</text>
+<g tabindex="0"><title>IDE, terminal, AMD Ryzen 9 5900X: libaom main 161.4 ms, Flat hash table 110.5 ms</title>
+<rect x="449.0" y="97.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,101.0h169.5a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-169.5z" class="viz-main"/>
+<path d="M449.0,115.0h114.8a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-114.8z" class="viz-flat"/>
+<text x="573.8" y="126.0" class="viz-ink2" font-size="12">-31.5%</text>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, AMD Ryzen 9 5900X: libaom main 157.0 ms, Flat hash table 107.0 ms</title>
+<rect x="449.0" y="141.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,145.0h164.7a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-164.7z" class="viz-main"/>
+<path d="M449.0,159.0h111.0a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-111.0z" class="viz-flat"/>
+<text x="570.0" y="170.0" class="viz-ink2" font-size="12">-31.8%</text>
+</g>
+<g tabindex="0"><title>Windows IDEs, AMD Ryzen 9 5900X: libaom main 159.3 ms, Flat hash table 109.5 ms</title>
+<rect x="449.0" y="185.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,189.0h167.3a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-167.3z" class="viz-main"/>
+<path d="M449.0,203.0h113.7a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-113.7z" class="viz-flat"/>
+<text x="572.7" y="214.0" class="viz-ink2" font-size="12">-31.7%</text>
+</g>
+<g tabindex="0"><title>Browser, file manager, AMD Ryzen 9 5900X: libaom main 180.0 ms, Flat hash table 116.0 ms</title>
+<rect x="449.0" y="229.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,233.0h189.5a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-189.5z" class="viz-main"/>
+<path d="M449.0,247.0h120.7a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-120.7z" class="viz-flat"/>
+<text x="579.7" y="258.0" class="viz-ink2" font-size="12">-35.1%</text>
+</g>
+<g tabindex="0"><title>IDE, video, AMD Ryzen 9 5900X: libaom main 199.6 ms, Flat hash table 130.8 ms</title>
+<rect x="449.0" y="273.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,277.0h210.6a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-210.6z" class="viz-main"/>
+<path d="M449.0,291.0h136.6a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-136.6z" class="viz-flat"/>
+<text x="595.6" y="302.0" class="viz-ink2" font-size="12">-34.5%</text>
+</g>
+</svg>

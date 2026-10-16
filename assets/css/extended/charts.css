@@ -1,0 +1,71 @@
+/* Chart colors for the inline SVG charts in assets/charts. */
+.viz {
+    --viz-ink: #0b0b0b;
+    --viz-ink2: #52514e;
+    --viz-muted: #898781;
+    --viz-grid: #e1e0d9;
+    --viz-link: #c3c2b7;
+    --viz-main: #86b6ef;
+    --viz-flat: #5598e7;
+    --viz-tile: #1c5cab;
+    --viz-all: #0d366b;
+    --viz-s1: #2a78d6;
+    --viz-s2: #eb6834;
+    --viz-s3: #1baf7a;
+    --viz-s4: #eda100;
+    --viz-s5: #e87ba4;
+    --viz-s6: #008300;
+    --viz-on-fill: #0b0b0b;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+:root[data-theme="dark"] .viz {
+    --viz-ink: #ffffff;
+    --viz-ink2: #c3c2b7;
+    --viz-muted: #898781;
+    --viz-grid: #2c2c2a;
+    --viz-link: #4a4a47;
+    --viz-main: #256abf;
+    --viz-flat: #5598e7;
+    --viz-tile: #9ec5f4;
+    --viz-all: #cde2fb;
+    --viz-s1: #3987e5;
+    --viz-s2: #d95926;
+    --viz-s3: #199e70;
+    --viz-s4: #c98500;
+    --viz-s5: #d55181;
+    --viz-s6: #008300;
+}
+
+.viz .viz-ink { fill: var(--viz-ink); }
+.viz .viz-ink2 { fill: var(--viz-ink2); }
+.viz .viz-muted { fill: var(--viz-muted); }
+.viz .viz-grid { stroke: var(--viz-grid); }
+.viz .viz-link { stroke: var(--viz-link); }
+.viz .viz-main { fill: var(--viz-main); }
+.viz .viz-flat { fill: var(--viz-flat); }
+.viz .viz-tile { fill: var(--viz-tile); }
+.viz .viz-all { fill: var(--viz-all); }
+.viz .viz-ring { stroke: var(--theme); }
+.viz .viz-s1 { fill: var(--viz-s1); }
+.viz .viz-s2 { fill: var(--viz-s2); }
+.viz .viz-s3 { fill: var(--viz-s3); }
+.viz .viz-s4 { fill: var(--viz-s4); }
+.viz .viz-s5 { fill: var(--viz-s5); }
+.viz .viz-s6 { fill: var(--viz-s6); }
+.viz .viz-on-fill { fill: var(--viz-on-fill); }
+.viz g[tabindex]:focus { outline: none; }
+.viz g[tabindex]:hover path,
+.viz g[tabindex]:focus path { opacity: 0.85; }
+
+.viz-figure {
+    margin: 24px 0;
+}
+
+.viz-figure figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--secondary);
+}

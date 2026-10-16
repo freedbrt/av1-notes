@@ -1,0 +1,99 @@
+<svg class="viz" viewBox="0 0 720 356" width="100%" role="img" font-family="system-ui, -apple-system, Segoe UI, sans-serif" aria-labelledby="costx-title costx-desc">
+<title id="costx-title">Extra time per key frame from IntraBC, Ryzen 9 5900X</title>
+<desc id="costx-desc">Grouped bars per clip: the extra key frame time with IntraBC on against IntraBC off, on libaom main and with our patches, at 1 thread (CPU time) and 4 threads (wall time). Each clip's tooltip has the exact times.</desc>
+<text x="0" y="16" class="viz-ink" font-size="15" font-weight="600">Extra time per key frame from IntraBC, Ryzen 9 5900X</text>
+<rect x="0.0" y="32" width="12" height="12" rx="2" class="viz-main"/>
+<text x="18.0" y="42" class="viz-ink2" font-size="12">libaom main</text>
+<rect x="109.1" y="32" width="12" height="12" rx="2" class="viz-all"/>
+<text x="127.1" y="42" class="viz-ink2" font-size="12">With our patches</text>
+<text x="0" y="112.0" class="viz-ink2" font-size="12">IDE, terminal</text>
+<text x="0" y="127.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="0" y="156.0" class="viz-ink2" font-size="12">IDE, chat, terminal</text>
+<text x="0" y="171.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="0" y="200.0" class="viz-ink2" font-size="12">Windows IDEs</text>
+<text x="0" y="215.0" class="viz-muted" font-size="11">2559x1372</text>
+<text x="0" y="244.0" class="viz-ink2" font-size="12">Browser, file manager</text>
+<text x="0" y="259.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="0" y="288.0" class="viz-ink2" font-size="12">IDE, video</text>
+<text x="0" y="303.0" class="viz-muted" font-size="11">2560x1440</text>
+<text x="150.0" y="78" class="viz-ink" font-size="13" font-weight="600">1 thread, CPU time</text>
+<line x1="150.0" y1="92" x2="150.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="150.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">0</text>
+<line x1="221.7" y1="92" x2="221.7" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="221.7" y="330" class="viz-muted" font-size="12" text-anchor="middle">50</text>
+<line x1="293.3" y1="92" x2="293.3" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="293.3" y="330" class="viz-muted" font-size="12" text-anchor="middle">100</text>
+<line x1="365.0" y1="92" x2="365.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="365.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">150</text>
+<text x="365.0" y="348" class="viz-muted" font-size="12" text-anchor="end">extra ms per key frame</text>
+<g tabindex="0"><title>IDE, terminal, 1 thread, CPU time: libaom main 102.3 ms, With our patches 23.4 ms</title>
+<rect x="150.0" y="97.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,101.0h142.6a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-142.6z" class="viz-main"/>
+<path d="M150.0,115.0h29.5a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-29.5z" class="viz-all"/>
+<text x="189.5" y="126.0" class="viz-ink2" font-size="12">+12.8%</text>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, 1 thread, CPU time: libaom main 105.5 ms, With our patches 25.8 ms</title>
+<rect x="150.0" y="141.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,145.0h147.2a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-147.2z" class="viz-main"/>
+<path d="M150.0,159.0h33.0a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-33.0z" class="viz-all"/>
+<text x="193.0" y="170.0" class="viz-ink2" font-size="12">+16.3%</text>
+</g>
+<g tabindex="0"><title>Windows IDEs, 1 thread, CPU time: libaom main 96.1 ms, With our patches 23.4 ms</title>
+<rect x="150.0" y="185.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,189.0h133.7a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-133.7z" class="viz-main"/>
+<path d="M150.0,203.0h29.5a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-29.5z" class="viz-all"/>
+<text x="189.5" y="214.0" class="viz-ink2" font-size="12">+12.0%</text>
+</g>
+<g tabindex="0"><title>Browser, file manager, 1 thread, CPU time: libaom main 122.7 ms, With our patches 29.7 ms</title>
+<rect x="150.0" y="229.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,233.0h171.9a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-171.9z" class="viz-main"/>
+<path d="M150.0,247.0h38.6a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-38.6z" class="viz-all"/>
+<text x="198.6" y="258.0" class="viz-ink2" font-size="12">+15.5%</text>
+</g>
+<g tabindex="0"><title>IDE, video, 1 thread, CPU time: libaom main 124.2 ms, With our patches 26.6 ms</title>
+<rect x="150.0" y="273.0" width="271.0" height="34" fill="transparent"/>
+<path d="M150.0,277.0h174.0a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-174.0z" class="viz-main"/>
+<path d="M150.0,291.0h34.1a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-34.1z" class="viz-all"/>
+<text x="194.1" y="302.0" class="viz-ink2" font-size="12">+11.0%</text>
+</g>
+<text x="449.0" y="78" class="viz-ink" font-size="13" font-weight="600">4 threads, wall time</text>
+<line x1="449.0" y1="92" x2="449.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="449.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">0</text>
+<line x1="520.7" y1="92" x2="520.7" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="520.7" y="330" class="viz-muted" font-size="12" text-anchor="middle">50</text>
+<line x1="592.3" y1="92" x2="592.3" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="592.3" y="330" class="viz-muted" font-size="12" text-anchor="middle">100</text>
+<line x1="664.0" y1="92" x2="664.0" y2="312" class="viz-grid" stroke-width="1"/>
+<text x="664.0" y="330" class="viz-muted" font-size="12" text-anchor="middle">150</text>
+<text x="664.0" y="348" class="viz-muted" font-size="12" text-anchor="end">extra ms per key frame</text>
+<g tabindex="0"><title>IDE, terminal, 4 threads, wall time: libaom main 107.9 ms, With our patches 12.5 ms</title>
+<rect x="449.0" y="97.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,101.0h150.7a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-150.7z" class="viz-main"/>
+<path d="M449.0,115.0h13.9a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-13.9z" class="viz-all"/>
+<text x="472.9" y="126.0" class="viz-ink2" font-size="12">+21.2%</text>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, 4 threads, wall time: libaom main 106.8 ms, With our patches 12.8 ms</title>
+<rect x="449.0" y="141.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,145.0h149.1a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-149.1z" class="viz-main"/>
+<path d="M449.0,159.0h14.3a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-14.3z" class="viz-all"/>
+<text x="473.3" y="170.0" class="viz-ink2" font-size="12">+23.4%</text>
+</g>
+<g tabindex="0"><title>Windows IDEs, 4 threads, wall time: libaom main 98.7 ms, With our patches 11.0 ms</title>
+<rect x="449.0" y="185.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,189.0h137.5a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-137.5z" class="viz-main"/>
+<path d="M449.0,203.0h11.8a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-11.8z" class="viz-all"/>
+<text x="470.8" y="214.0" class="viz-ink2" font-size="12">+17.3%</text>
+</g>
+<g tabindex="0"><title>Browser, file manager, 4 threads, wall time: libaom main 121.6 ms, With our patches 13.3 ms</title>
+<rect x="449.0" y="229.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,233.0h170.3a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-170.3z" class="viz-main"/>
+<path d="M449.0,247.0h15.1a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-15.1z" class="viz-all"/>
+<text x="474.1" y="258.0" class="viz-ink2" font-size="12">+21.4%</text>
+</g>
+<g tabindex="0"><title>IDE, video, 4 threads, wall time: libaom main 131.7 ms, With our patches 12.2 ms</title>
+<rect x="449.0" y="273.0" width="271.0" height="34" fill="transparent"/>
+<path d="M449.0,277.0h184.8a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-184.8z" class="viz-main"/>
+<path d="M449.0,291.0h13.5a4,4 0 0 1 4,4v4.0a4,4 0 0 1 -4,4h-13.5z" class="viz-all"/>
+<text x="472.5" y="302.0" class="viz-ink2" font-size="12">+15.8%</text>
+</g>
+</svg>

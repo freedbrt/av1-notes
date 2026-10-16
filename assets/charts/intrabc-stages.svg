@@ -1,0 +1,135 @@
+<svg class="viz" viewBox="0 0 720 296" width="100%" role="img" font-family="system-ui, -apple-system, Segoe UI, sans-serif" aria-labelledby="st-title st-desc">
+<title id="st-title">IntraBC time per key frame by stage, M3 Pro, 1 thread</title>
+<desc id="st-desc">Stacked bars per clip with our patches: the 2x2 pass, the 4x4 and 8x8 CRC passes, the count, the fill and the search. The fill and the search are the largest parts. Each segment's tooltip has its time.</desc>
+<text x="0" y="16" class="viz-ink" font-size="15" font-weight="600">IntraBC time per key frame by stage, M3 Pro, 1 thread</text>
+<rect x="0.0" y="32" width="12" height="12" rx="2" class="viz-s1"/>
+<text x="18.0" y="42" class="viz-ink2" font-size="12">2x2 pass</text>
+<rect x="90.8" y="32" width="12" height="12" rx="2" class="viz-s2"/>
+<text x="108.8" y="42" class="viz-ink2" font-size="12">4x4 CRC</text>
+<rect x="175.5" y="32" width="12" height="12" rx="2" class="viz-s3"/>
+<text x="193.5" y="42" class="viz-ink2" font-size="12">8x8 CRC</text>
+<rect x="260.2" y="32" width="12" height="12" rx="2" class="viz-s4"/>
+<text x="278.2" y="42" class="viz-ink2" font-size="12">Count</text>
+<rect x="332.7" y="32" width="12" height="12" rx="2" class="viz-s5"/>
+<text x="350.7" y="42" class="viz-ink2" font-size="12">Fill</text>
+<rect x="399.1" y="32" width="12" height="12" rx="2" class="viz-s6"/>
+<text x="417.1" y="42" class="viz-ink2" font-size="12">Search</text>
+<line x1="150.0" y1="72" x2="150.0" y2="252" class="viz-grid" stroke-width="1"/>
+<text x="150.0" y="270" class="viz-muted" font-size="12" text-anchor="middle">0</text>
+<line x1="248.0" y1="72" x2="248.0" y2="252" class="viz-grid" stroke-width="1"/>
+<text x="248.0" y="270" class="viz-muted" font-size="12" text-anchor="middle">5</text>
+<line x1="346.0" y1="72" x2="346.0" y2="252" class="viz-grid" stroke-width="1"/>
+<text x="346.0" y="270" class="viz-muted" font-size="12" text-anchor="middle">10</text>
+<line x1="444.0" y1="72" x2="444.0" y2="252" class="viz-grid" stroke-width="1"/>
+<text x="444.0" y="270" class="viz-muted" font-size="12" text-anchor="middle">15</text>
+<line x1="542.0" y1="72" x2="542.0" y2="252" class="viz-grid" stroke-width="1"/>
+<text x="542.0" y="270" class="viz-muted" font-size="12" text-anchor="middle">20</text>
+<line x1="640.0" y1="72" x2="640.0" y2="252" class="viz-grid" stroke-width="1"/>
+<text x="640.0" y="270" class="viz-muted" font-size="12" text-anchor="middle">25</text>
+<text x="640.0" y="288" class="viz-muted" font-size="12" text-anchor="end">ms per key frame</text>
+<text x="0" y="88.0" class="viz-ink2" font-size="12">IDE, terminal</text>
+<text x="0" y="102.0" class="viz-muted" font-size="11">2560x1440</text>
+<g tabindex="0"><title>IDE, terminal, 2x2 pass: 2.3 ms</title>
+<path d="M150.0,80.0h42.9v20.0h-42.9z" class="viz-s1"/>
+</g>
+<g tabindex="0"><title>IDE, terminal, 4x4 CRC: 2.0 ms</title>
+<path d="M194.9,80.0h37.8v20.0h-37.8z" class="viz-s2"/>
+</g>
+<g tabindex="0"><title>IDE, terminal, 8x8 CRC: 2.0 ms</title>
+<path d="M234.7,80.0h38.2v20.0h-38.2z" class="viz-s3"/>
+</g>
+<g tabindex="0"><title>IDE, terminal, Count: 2.0 ms</title>
+<path d="M274.9,80.0h36.6v20.0h-36.6z" class="viz-s4"/>
+</g>
+<g tabindex="0"><title>IDE, terminal, Fill: 5.1 ms</title>
+<path d="M313.5,80.0h98.5v20.0h-98.5z" class="viz-s5"/>
+</g>
+<g tabindex="0"><title>IDE, terminal, Search: 5.7 ms</title>
+<path d="M414.0,80.0h107.1a4,4 0 0 1 4,4v12.0a4,4 0 0 1 -4,4h-107.1z" class="viz-s6"/>
+</g>
+<text x="533.1" y="94.0" class="viz-ink" font-size="12" font-weight="600">19.1 ms</text>
+<text x="0" y="124.0" class="viz-ink2" font-size="12">IDE, chat, terminal</text>
+<text x="0" y="138.0" class="viz-muted" font-size="11">2560x1440</text>
+<g tabindex="0"><title>IDE, chat, terminal, 2x2 pass: 2.3 ms</title>
+<path d="M150.0,116.0h43.7v20.0h-43.7z" class="viz-s1"/>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, 4x4 CRC: 2.1 ms</title>
+<path d="M195.7,116.0h39.2v20.0h-39.2z" class="viz-s2"/>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, 8x8 CRC: 2.1 ms</title>
+<path d="M236.8,116.0h39.4v20.0h-39.4z" class="viz-s3"/>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, Count: 1.8 ms</title>
+<path d="M278.2,116.0h33.5v20.0h-33.5z" class="viz-s4"/>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, Fill: 5.3 ms</title>
+<path d="M313.7,116.0h101.1v20.0h-101.1z" class="viz-s5"/>
+</g>
+<g tabindex="0"><title>IDE, chat, terminal, Search: 4.5 ms</title>
+<path d="M416.8,116.0h84.0a4,4 0 0 1 4,4v12.0a4,4 0 0 1 -4,4h-84.0z" class="viz-s6"/>
+</g>
+<text x="512.8" y="130.0" class="viz-ink" font-size="12" font-weight="600">18.1 ms</text>
+<text x="0" y="160.0" class="viz-ink2" font-size="12">Windows IDEs</text>
+<text x="0" y="174.0" class="viz-muted" font-size="11">2559x1372</text>
+<g tabindex="0"><title>Windows IDEs, 2x2 pass: 2.2 ms</title>
+<path d="M150.0,152.0h41.3v20.0h-41.3z" class="viz-s1"/>
+</g>
+<g tabindex="0"><title>Windows IDEs, 4x4 CRC: 1.9 ms</title>
+<path d="M193.3,152.0h35.8v20.0h-35.8z" class="viz-s2"/>
+</g>
+<g tabindex="0"><title>Windows IDEs, 8x8 CRC: 1.9 ms</title>
+<path d="M231.1,152.0h36.2v20.0h-36.2z" class="viz-s3"/>
+</g>
+<g tabindex="0"><title>Windows IDEs, Count: 1.8 ms</title>
+<path d="M269.4,152.0h33.5v20.0h-33.5z" class="viz-s4"/>
+</g>
+<g tabindex="0"><title>Windows IDEs, Fill: 5.3 ms</title>
+<path d="M304.8,152.0h101.5v20.0h-101.5z" class="viz-s5"/>
+</g>
+<g tabindex="0"><title>Windows IDEs, Search: 6.4 ms</title>
+<path d="M408.3,152.0h121.4a4,4 0 0 1 4,4v12.0a4,4 0 0 1 -4,4h-121.4z" class="viz-s6"/>
+</g>
+<text x="541.8" y="166.0" class="viz-ink" font-size="12" font-weight="600">19.6 ms</text>
+<text x="0" y="196.0" class="viz-ink2" font-size="12">Browser, file manager</text>
+<text x="0" y="210.0" class="viz-muted" font-size="11">2560x1440</text>
+<g tabindex="0"><title>Browser, file manager, 2x2 pass: 2.3 ms</title>
+<path d="M150.0,188.0h42.9v20.0h-42.9z" class="viz-s1"/>
+</g>
+<g tabindex="0"><title>Browser, file manager, 4x4 CRC: 2.1 ms</title>
+<path d="M194.9,188.0h39.0v20.0h-39.0z" class="viz-s2"/>
+</g>
+<g tabindex="0"><title>Browser, file manager, 8x8 CRC: 2.1 ms</title>
+<path d="M235.8,188.0h38.4v20.0h-38.4z" class="viz-s3"/>
+</g>
+<g tabindex="0"><title>Browser, file manager, Count: 2.0 ms</title>
+<path d="M276.2,188.0h37.6v20.0h-37.6z" class="viz-s4"/>
+</g>
+<g tabindex="0"><title>Browser, file manager, Fill: 6.0 ms</title>
+<path d="M315.8,188.0h116.6v20.0h-116.6z" class="viz-s5"/>
+</g>
+<g tabindex="0"><title>Browser, file manager, Search: 4.9 ms</title>
+<path d="M434.4,188.0h92.6a4,4 0 0 1 4,4v12.0a4,4 0 0 1 -4,4h-92.6z" class="viz-s6"/>
+</g>
+<text x="539.0" y="202.0" class="viz-ink" font-size="12" font-weight="600">19.4 ms</text>
+<text x="0" y="232.0" class="viz-ink2" font-size="12">IDE, video</text>
+<text x="0" y="246.0" class="viz-muted" font-size="11">2560x1440</text>
+<g tabindex="0"><title>IDE, video, 2x2 pass: 2.3 ms</title>
+<path d="M150.0,224.0h42.9v20.0h-42.9z" class="viz-s1"/>
+</g>
+<g tabindex="0"><title>IDE, video, 4x4 CRC: 2.1 ms</title>
+<path d="M194.9,224.0h39.2v20.0h-39.2z" class="viz-s2"/>
+</g>
+<g tabindex="0"><title>IDE, video, 8x8 CRC: 2.1 ms</title>
+<path d="M236.0,224.0h38.4v20.0h-38.4z" class="viz-s3"/>
+</g>
+<g tabindex="0"><title>IDE, video, Count: 2.1 ms</title>
+<path d="M276.4,224.0h39.0v20.0h-39.0z" class="viz-s4"/>
+</g>
+<g tabindex="0"><title>IDE, video, Fill: 6.4 ms</title>
+<path d="M317.4,224.0h123.0v20.0h-123.0z" class="viz-s5"/>
+</g>
+<g tabindex="0"><title>IDE, video, Search: 6.0 ms</title>
+<path d="M442.4,224.0h114.2a4,4 0 0 1 4,4v12.0a4,4 0 0 1 -4,4h-114.2z" class="viz-s6"/>
+</g>
+<text x="568.6" y="238.0" class="viz-ink" font-size="12" font-weight="600">20.9 ms</text>
+</svg>

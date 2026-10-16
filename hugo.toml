@@ -1,0 +1,10 @@
+baseURL = 'https://freedbrt.github.io/av1-notes/'
+locale = 'en-us'
+title = 'AV1 Notes'
+theme = 'PaperMod'
+
+[params]
+  description = 'Notes on video codecs and libaom AV1 optimizations'
+  mainSections = ['posts']
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true

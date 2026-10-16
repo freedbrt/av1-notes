@@ -1,0 +1,79 @@
+<svg class="viz" viewBox="0 0 720 292" width="100%" role="img" font-family="system-ui, -apple-system, Segoe UI, sans-serif" aria-labelledby="thr-title thr-desc">
+<title id="thr-title">Wall time per key frame, mean of the five clips</title>
+<desc id="thr-desc">Grouped bars per thread count for the Apple M3 Pro and the AMD Ryzen 9 5900X: libaom main, the flat hash table, and the flat table with the per tile build. Each group's tooltip has the exact times.</desc>
+<text x="0" y="16" class="viz-ink" font-size="15" font-weight="600">Wall time per key frame, mean of the five clips</text>
+<rect x="0.0" y="32" width="12" height="12" rx="2" class="viz-main"/>
+<text x="18.0" y="42" class="viz-ink2" font-size="12">libaom main</text>
+<rect x="109.1" y="32" width="12" height="12" rx="2" class="viz-flat"/>
+<text x="127.1" y="42" class="viz-ink2" font-size="12">Flat hash table</text>
+<rect x="242.6" y="32" width="12" height="12" rx="2" class="viz-tile"/>
+<text x="260.6" y="42" class="viz-ink2" font-size="12">+ per tile build</text>
+<text x="0" y="116.0" class="viz-ink2" font-size="12">1 thread</text>
+<text x="0" y="131.0" class="viz-muted" font-size="11">1 tile</text>
+<text x="0" y="168.0" class="viz-ink2" font-size="12">2 threads</text>
+<text x="0" y="183.0" class="viz-muted" font-size="11">2x1 tiles</text>
+<text x="0" y="220.0" class="viz-ink2" font-size="12">4 threads</text>
+<text x="0" y="235.0" class="viz-muted" font-size="11">2x2 tiles</text>
+<text x="150.0" y="78" class="viz-ink" font-size="13" font-weight="600">Apple M3 Pro</text>
+<line x1="150.0" y1="92" x2="150.0" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="150.0" y="266" class="viz-muted" font-size="12" text-anchor="middle">0</text>
+<line x1="221.7" y1="92" x2="221.7" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="221.7" y="266" class="viz-muted" font-size="12" text-anchor="middle">100</text>
+<line x1="293.3" y1="92" x2="293.3" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="293.3" y="266" class="viz-muted" font-size="12" text-anchor="middle">200</text>
+<line x1="365.0" y1="92" x2="365.0" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="365.0" y="266" class="viz-muted" font-size="12" text-anchor="middle">300</text>
+<text x="365.0" y="284" class="viz-muted" font-size="12" text-anchor="end">ms per key frame</text>
+<g tabindex="0"><title>1 thread, Apple M3 Pro: libaom main 158.7 ms, Flat hash table 134.8 ms, + per tile build 135.3 ms</title>
+<rect x="150.0" y="97.0" width="271.0" height="42" fill="transparent"/>
+<path d="M150.0,101.0h109.8a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-109.8z" class="viz-main"/>
+<path d="M150.0,113.0h92.6a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-92.6z" class="viz-flat"/>
+<path d="M150.0,125.0h92.9a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-92.9z" class="viz-tile"/>
+<text x="252.9" y="134.0" class="viz-ink2" font-size="12">-14.8%</text>
+</g>
+<g tabindex="0"><title>2 threads, Apple M3 Pro: libaom main 107.9 ms, Flat hash table 84.2 ms, + per tile build 75.3 ms</title>
+<rect x="150.0" y="149.0" width="271.0" height="42" fill="transparent"/>
+<path d="M150.0,153.0h73.3a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-73.3z" class="viz-main"/>
+<path d="M150.0,165.0h56.3a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-56.3z" class="viz-flat"/>
+<path d="M150.0,177.0h50.0a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-50.0z" class="viz-tile"/>
+<text x="210.0" y="186.0" class="viz-ink2" font-size="12">-30.2%</text>
+</g>
+<g tabindex="0"><title>4 threads, Apple M3 Pro: libaom main 81.4 ms, Flat hash table 56.7 ms, + per tile build 42.4 ms</title>
+<rect x="150.0" y="201.0" width="271.0" height="42" fill="transparent"/>
+<path d="M150.0,205.0h54.3a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-54.3z" class="viz-main"/>
+<path d="M150.0,217.0h36.7a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-36.7z" class="viz-flat"/>
+<path d="M150.0,229.0h26.4a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-26.4z" class="viz-tile"/>
+<text x="186.4" y="238.0" class="viz-ink2" font-size="12">-47.9%</text>
+</g>
+<text x="449.0" y="78" class="viz-ink" font-size="13" font-weight="600">AMD Ryzen 9 5900X</text>
+<line x1="449.0" y1="92" x2="449.0" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="449.0" y="266" class="viz-muted" font-size="12" text-anchor="middle">0</text>
+<line x1="520.7" y1="92" x2="520.7" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="520.7" y="266" class="viz-muted" font-size="12" text-anchor="middle">100</text>
+<line x1="592.3" y1="92" x2="592.3" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="592.3" y="266" class="viz-muted" font-size="12" text-anchor="middle">200</text>
+<line x1="664.0" y1="92" x2="664.0" y2="248" class="viz-grid" stroke-width="1"/>
+<text x="664.0" y="266" class="viz-muted" font-size="12" text-anchor="middle">300</text>
+<text x="664.0" y="284" class="viz-muted" font-size="12" text-anchor="end">ms per key frame</text>
+<g tabindex="0"><title>1 thread, AMD Ryzen 9 5900X: libaom main 298.4 ms, Flat hash table 241.2 ms, + per tile build 240.3 ms</title>
+<rect x="449.0" y="97.0" width="271.0" height="42" fill="transparent"/>
+<path d="M449.0,101.0h209.9a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-209.9z" class="viz-main"/>
+<path d="M449.0,113.0h168.9a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-168.9z" class="viz-flat"/>
+<path d="M449.0,125.0h168.2a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-168.2z" class="viz-tile"/>
+<text x="627.2" y="134.0" class="viz-ink2" font-size="12">-19.5%</text>
+</g>
+<g tabindex="0"><title>2 threads, AMD Ryzen 9 5900X: libaom main 217.2 ms, Flat hash table 172.4 ms, + per tile build 140.8 ms</title>
+<rect x="449.0" y="149.0" width="271.0" height="42" fill="transparent"/>
+<path d="M449.0,153.0h151.7a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-151.7z" class="viz-main"/>
+<path d="M449.0,165.0h119.5a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-119.5z" class="viz-flat"/>
+<path d="M449.0,177.0h96.9a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-96.9z" class="viz-tile"/>
+<text x="555.9" y="186.0" class="viz-ink2" font-size="12">-35.2%</text>
+</g>
+<g tabindex="0"><title>4 threads, AMD Ryzen 9 5900X: libaom main 171.5 ms, Flat hash table 114.7 ms, + per tile build 80.5 ms</title>
+<rect x="449.0" y="201.0" width="271.0" height="42" fill="transparent"/>
+<path d="M449.0,205.0h118.9a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-118.9z" class="viz-main"/>
+<path d="M449.0,217.0h78.2a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-78.2z" class="viz-flat"/>
+<path d="M449.0,229.0h53.7a4,4 0 0 1 4,4v2.0a4,4 0 0 1 -4,4h-53.7z" class="viz-tile"/>
+<text x="512.7" y="238.0" class="viz-ink2" font-size="12">-53.1%</text>
+</g>
+</svg>

@@ -1,0 +1,1308 @@
+{
+ "Apple M3 Pro": {
+  "1": {
+   "capture": {
+    "main": {
+     "cpu": 149.94,
+     "wall": 149.96,
+     "bytes": 5389264,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 128.19,
+     "wall": 128.3,
+     "bytes": 5389264,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 128.5,
+     "wall": 128.55,
+     "bytes": 5389264,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -15.14,
+      "cpu_won": 5,
+      "wall": -15.14,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -0.81,
+      "cpu_won": 3,
+      "wall": -0.81,
+      "wall_won": 3,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -14.97,
+      "cpu_won": 5,
+      "wall": -14.96,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture2": {
+    "main": {
+     "cpu": 135.14,
+     "wall": 135.16,
+     "bytes": 5185107,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 112.67,
+     "wall": 112.69,
+     "bytes": 5185107,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 114.61,
+     "wall": 114.62,
+     "bytes": 5185107,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.2,
+      "cpu_won": 5,
+      "wall": -16.2,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.47,
+      "cpu_won": 2,
+      "wall": 0.47,
+      "wall_won": 2,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -15.19,
+      "cpu_won": 5,
+      "wall": -15.2,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture3": {
+    "main": {
+     "cpu": 149.79,
+     "wall": 149.8,
+     "bytes": 5571345,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 132.43,
+     "wall": 132.47,
+     "bytes": 5571345,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 131.38,
+     "wall": 131.4,
+     "bytes": 5571345,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -11.41,
+      "cpu_won": 5,
+      "wall": -11.37,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -1.04,
+      "cpu_won": 5,
+      "wall": -1.06,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -12.02,
+      "cpu_won": 5,
+      "wall": -12.03,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture4": {
+    "main": {
+     "cpu": 161.17,
+     "wall": 161.2,
+     "bytes": 6815150,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 134.05,
+     "wall": 134.07,
+     "bytes": 6815150,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 133.98,
+     "wall": 134.05,
+     "bytes": 6815150,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.77,
+      "cpu_won": 5,
+      "wall": -16.76,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 1.14,
+      "cpu_won": 1,
+      "wall": 1.46,
+      "wall_won": 1,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -16.15,
+      "cpu_won": 5,
+      "wall": -16.14,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture5": {
+    "main": {
+     "cpu": 197.5,
+     "wall": 197.62,
+     "bytes": 8004638,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 166.5,
+     "wall": 166.62,
+     "bytes": 8004638,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 167.37,
+     "wall": 167.75,
+     "bytes": 8004638,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.66,
+      "cpu_won": 5,
+      "wall": -16.55,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.29,
+      "cpu_won": 2,
+      "wall": 0.25,
+      "wall_won": 2,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -15.08,
+      "cpu_won": 5,
+      "wall": -15.12,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   }
+  },
+  "2": {
+   "capture": {
+    "main": {
+     "cpu": 152.29,
+     "wall": 102.22,
+     "bytes": 5463072,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 129.51,
+     "wall": 79.97,
+     "bytes": 5463072,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 130.38,
+     "wall": 70.61,
+     "bytes": 5461337,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -14.17,
+      "cpu_won": 5,
+      "wall": -20.92,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.73,
+      "cpu_won": 1,
+      "wall": -11.59,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -13.65,
+      "cpu_won": 5,
+      "wall": -30.36,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture2": {
+    "main": {
+     "cpu": 140.47,
+     "wall": 99.45,
+     "bytes": 5283123,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 116.23,
+     "wall": 75.77,
+     "bytes": 5283123,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 117.41,
+     "wall": 66.81,
+     "bytes": 5282789,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.93,
+      "cpu_won": 5,
+      "wall": -23.4,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.32,
+      "cpu_won": 1,
+      "wall": -12.41,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -15.03,
+      "cpu_won": 5,
+      "wall": -31.56,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture3": {
+    "main": {
+     "cpu": 154.46,
+     "wall": 99.98,
+     "bytes": 5607571,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 135.08,
+     "wall": 81.12,
+     "bytes": 5607571,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 135.68,
+     "wall": 72.22,
+     "bytes": 5606735,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -11.89,
+      "cpu_won": 5,
+      "wall": -18.79,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.41,
+      "cpu_won": 2,
+      "wall": -10.91,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -10.7,
+      "cpu_won": 5,
+      "wall": -25.99,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture4": {
+    "main": {
+     "cpu": 163.1,
+     "wall": 111.13,
+     "bytes": 6914548,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 136.32,
+     "wall": 84.7,
+     "bytes": 6914548,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 140.7,
+     "wall": 77.19,
+     "bytes": 6914275,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.01,
+      "cpu_won": 5,
+      "wall": -23.29,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 2.8,
+      "cpu_won": 0,
+      "wall": -9.24,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -14.31,
+      "cpu_won": 5,
+      "wall": -30.39,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture5": {
+    "main": {
+     "cpu": 195.69,
+     "wall": 126.5,
+     "bytes": 8067991,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 168.53,
+     "wall": 99.2,
+     "bytes": 8067991,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 170.23,
+     "wall": 89.73,
+     "bytes": 8066037,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -14.84,
+      "cpu_won": 5,
+      "wall": -22.4,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.57,
+      "cpu_won": 2,
+      "wall": -9.94,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -12.86,
+      "cpu_won": 5,
+      "wall": -29.04,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   }
+  },
+  "4": {
+   "capture": {
+    "main": {
+     "cpu": 156.62,
+     "wall": 76.88,
+     "bytes": 5558614,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 132.88,
+     "wall": 53.96,
+     "bytes": 5558614,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 134.8,
+     "wall": 39.58,
+     "bytes": 5556805,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -14.18,
+      "cpu_won": 5,
+      "wall": -29.0,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 1.41,
+      "cpu_won": 1,
+      "wall": -26.66,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -13.18,
+      "cpu_won": 5,
+      "wall": -47.96,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture2": {
+    "main": {
+     "cpu": 142.85,
+     "wall": 74.9,
+     "bytes": 5327992,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 119.62,
+     "wall": 52.1,
+     "bytes": 5327992,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 122.09,
+     "wall": 37.94,
+     "bytes": 5327221,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -15.61,
+      "cpu_won": 5,
+      "wall": -29.23,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 2.06,
+      "cpu_won": 0,
+      "wall": -27.2,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -14.0,
+      "cpu_won": 5,
+      "wall": -48.93,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture3": {
+    "main": {
+     "cpu": 161.32,
+     "wall": 74.28,
+     "bytes": 5834807,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 139.44,
+     "wall": 54.8,
+     "bytes": 5834807,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 141.48,
+     "wall": 41.45,
+     "bytes": 5832016,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -12.31,
+      "cpu_won": 5,
+      "wall": -25.11,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.22,
+      "cpu_won": 2,
+      "wall": -25.86,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -11.12,
+      "cpu_won": 5,
+      "wall": -44.48,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture4": {
+    "main": {
+     "cpu": 168.53,
+     "wall": 84.33,
+     "bytes": 7022612,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 140.75,
+     "wall": 57.11,
+     "bytes": 7022612,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 142.69,
+     "wall": 41.95,
+     "bytes": 7022414,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.27,
+      "cpu_won": 5,
+      "wall": -31.88,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 1.37,
+      "cpu_won": 2,
+      "wall": -26.54,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -15.48,
+      "cpu_won": 5,
+      "wall": -50.32,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture5": {
+    "main": {
+     "cpu": 204.56,
+     "wall": 96.38,
+     "bytes": 8398306,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 172.38,
+     "wall": 65.71,
+     "bytes": 8398306,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 174.97,
+     "wall": 50.93,
+     "bytes": 8394805,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -15.73,
+      "cpu_won": 5,
+      "wall": -31.86,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 1.71,
+      "cpu_won": 0,
+      "wall": -22.43,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -14.14,
+      "cpu_won": 5,
+      "wall": -46.96,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   }
+  }
+ },
+ "AMD Ryzen 9 5900X": {
+  "1": {
+   "capture": {
+    "main": {
+     "cpu": 280.47,
+     "wall": 278.68,
+     "bytes": 5389264,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 228.12,
+     "wall": 229.4,
+     "bytes": 5389264,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 228.12,
+     "wall": 228.34,
+     "bytes": 5389264,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -18.39,
+      "cpu_won": 5,
+      "wall": -17.88,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.34,
+      "cpu_won": 1,
+      "wall": -0.42,
+      "wall_won": 4,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -18.59,
+      "cpu_won": 5,
+      "wall": -18.09,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture2": {
+    "main": {
+     "cpu": 260.16,
+     "wall": 258.87,
+     "bytes": 5185107,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 206.25,
+     "wall": 207.73,
+     "bytes": 5185107,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 206.25,
+     "wall": 207.87,
+     "bytes": 5185107,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -20.12,
+      "cpu_won": 5,
+      "wall": -19.6,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 0.0,
+      "cpu_won": 2,
+      "wall": 0.33,
+      "wall_won": 2,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -20.12,
+      "cpu_won": 5,
+      "wall": -19.08,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture3": {
+    "main": {
+     "cpu": 289.84,
+     "wall": 288.4,
+     "bytes": 5571345,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 236.72,
+     "wall": 237.46,
+     "bytes": 5571345,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 235.94,
+     "wall": 235.99,
+     "bytes": 5571345,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -17.38,
+      "cpu_won": 5,
+      "wall": -17.67,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -0.33,
+      "cpu_won": 3,
+      "wall": -0.42,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -18.58,
+      "cpu_won": 5,
+      "wall": -18.36,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture4": {
+    "main": {
+     "cpu": 303.12,
+     "wall": 305.76,
+     "bytes": 6815150,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 241.41,
+     "wall": 242.81,
+     "bytes": 6815150,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 239.84,
+     "wall": 241.57,
+     "bytes": 6815150,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -20.78,
+      "cpu_won": 5,
+      "wall": -20.74,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -0.65,
+      "cpu_won": 3,
+      "wall": -0.39,
+      "wall_won": 3,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -21.13,
+      "cpu_won": 5,
+      "wall": -20.99,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   },
+   "capture5": {
+    "main": {
+     "cpu": 358.59,
+     "wall": 360.31,
+     "bytes": 8004638,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 287.5,
+     "wall": 288.62,
+     "bytes": 8004638,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 286.72,
+     "wall": 287.91,
+     "bytes": 8004638,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -20.04,
+      "cpu_won": 5,
+      "wall": -19.79,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -0.27,
+      "cpu_won": 3,
+      "wall": -0.12,
+      "wall_won": 3,
+      "same_output": true
+     },
+     "main-p10": {
+      "cpu": -19.69,
+      "cpu_won": 5,
+      "wall": -19.62,
+      "wall_won": 5,
+      "same_output": true
+     }
+    }
+   }
+  },
+  "2": {
+   "capture": {
+    "main": {
+     "cpu": 284.38,
+     "wall": 203.94,
+     "bytes": 5463072,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 249.22,
+     "wall": 167.73,
+     "bytes": 5463072,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 240.62,
+     "wall": 134.89,
+     "bytes": 5461337,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -12.74,
+      "cpu_won": 5,
+      "wall": -17.89,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -2.54,
+      "cpu_won": 4,
+      "wall": -19.18,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -14.96,
+      "cpu_won": 5,
+      "wall": -34.6,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture2": {
+    "main": {
+     "cpu": 267.97,
+     "wall": 197.25,
+     "bytes": 5283123,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 228.91,
+     "wall": 158.35,
+     "bytes": 5283123,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 217.19,
+     "wall": 127.2,
+     "bytes": 5282789,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -17.18,
+      "cpu_won": 5,
+      "wall": -19.06,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -1.77,
+      "cpu_won": 4,
+      "wall": -19.05,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -17.75,
+      "cpu_won": 5,
+      "wall": -34.62,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture3": {
+    "main": {
+     "cpu": 294.53,
+     "wall": 205.29,
+     "bytes": 5607571,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 254.69,
+     "wall": 165.81,
+     "bytes": 5607571,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 251.56,
+     "wall": 137.08,
+     "bytes": 5606735,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -13.53,
+      "cpu_won": 4,
+      "wall": -19.23,
+      "wall_won": 4,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -2.51,
+      "cpu_won": 5,
+      "wall": -17.33,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -17.47,
+      "cpu_won": 5,
+      "wall": -34.33,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture4": {
+    "main": {
+     "cpu": 312.5,
+     "wall": 224.98,
+     "bytes": 6914548,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 260.94,
+     "wall": 173.97,
+     "bytes": 6914548,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 258.59,
+     "wall": 142.46,
+     "bytes": 6914275,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -18.5,
+      "cpu_won": 5,
+      "wall": -22.57,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -0.9,
+      "cpu_won": 4,
+      "wall": -18.22,
+      "wall_won": 4,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -17.25,
+      "cpu_won": 4,
+      "wall": -36.68,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture5": {
+    "main": {
+     "cpu": 360.94,
+     "wall": 254.57,
+     "bytes": 8067991,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 303.12,
+     "wall": 195.94,
+     "bytes": 8067991,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 302.34,
+     "wall": 162.32,
+     "bytes": 8066037,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.02,
+      "cpu_won": 5,
+      "wall": -24.2,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -0.77,
+      "cpu_won": 4,
+      "wall": -15.89,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -16.91,
+      "cpu_won": 5,
+      "wall": -35.84,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   }
+  },
+  "4": {
+   "capture": {
+    "main": {
+     "cpu": 290.62,
+     "wall": 161.41,
+     "bytes": 5558614,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 242.97,
+     "wall": 110.48,
+     "bytes": 5558614,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 238.28,
+     "wall": 76.3,
+     "bytes": 5556805,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -16.26,
+      "cpu_won": 5,
+      "wall": -31.47,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -0.98,
+      "cpu_won": 3,
+      "wall": -30.68,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -18.01,
+      "cpu_won": 5,
+      "wall": -52.57,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture2": {
+    "main": {
+     "cpu": 269.53,
+     "wall": 156.97,
+     "bytes": 5327992,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 217.19,
+     "wall": 106.95,
+     "bytes": 5327992,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 224.22,
+     "wall": 72.16,
+     "bytes": 5327221,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -19.83,
+      "cpu_won": 5,
+      "wall": -31.82,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 2.87,
+      "cpu_won": 0,
+      "wall": -32.49,
+      "wall_won": 4,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -13.94,
+      "cpu_won": 4,
+      "wall": -53.06,
+      "wall_won": 4,
+      "same_output": false
+     }
+    }
+   },
+   "capture3": {
+    "main": {
+     "cpu": 295.31,
+     "wall": 159.32,
+     "bytes": 5834807,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 251.56,
+     "wall": 109.53,
+     "bytes": 5834807,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 255.47,
+     "wall": 78.34,
+     "bytes": 5832016,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -17.44,
+      "cpu_won": 5,
+      "wall": -31.67,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 3.42,
+      "cpu_won": 0,
+      "wall": -28.25,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -14.32,
+      "cpu_won": 5,
+      "wall": -50.91,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture4": {
+    "main": {
+     "cpu": 319.53,
+     "wall": 180.0,
+     "bytes": 7022612,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 253.91,
+     "wall": 115.99,
+     "bytes": 7022612,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 268.75,
+     "wall": 80.88,
+     "bytes": 7022414,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -20.34,
+      "cpu_won": 5,
+      "wall": -35.11,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": 3.39,
+      "cpu_won": 0,
+      "wall": -30.52,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -15.89,
+      "cpu_won": 5,
+      "wall": -55.06,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   },
+   "capture5": {
+    "main": {
+     "cpu": 373.44,
+     "wall": 199.59,
+     "bytes": 8398306,
+     "rounds": 5
+    },
+    "p8": {
+     "cpu": 310.94,
+     "wall": 130.77,
+     "bytes": 8398306,
+     "rounds": 5
+    },
+    "p10": {
+     "cpu": 306.25,
+     "wall": 94.66,
+     "bytes": 8394805,
+     "rounds": 5
+    },
+    "changes": {
+     "main-p8": {
+      "cpu": -17.96,
+      "cpu_won": 5,
+      "wall": -34.54,
+      "wall_won": 5,
+      "same_output": true
+     },
+     "p8-p10": {
+      "cpu": -1.51,
+      "cpu_won": 4,
+      "wall": -27.61,
+      "wall_won": 5,
+      "same_output": false
+     },
+     "main-p10": {
+      "cpu": -18.36,
+      "cpu_won": 5,
+      "wall": -52.53,
+      "wall_won": 5,
+      "same_output": false
+     }
+    }
+   }
+  }
+ }
+}
