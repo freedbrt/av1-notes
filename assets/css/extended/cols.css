@@ -1,0 +1,22 @@
+/* Two code columns side by side, wider than the text column. */
+.cols {
+  display: flex;
+  gap: 1rem;
+  width: min(1240px, 96vw);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.cols .col {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .cols {
+    flex-direction: column;
+    width: auto;
+    margin-left: 0;
+    transform: none;
+  }
+}
